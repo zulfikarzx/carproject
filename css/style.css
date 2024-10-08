@@ -1,0 +1,567 @@
+body{
+    background-color: #141414;
+}
+/* Header area start here */
+.header{
+    width: 100%;
+    min-height: 800px;
+    border-radius: 1rem;
+    background: url("/img/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.header-area{
+    width: 100%;
+}
+.logo-area{
+    width: 100px;
+    padding: 30px 0;
+    margin: 0 auto;
+}
+.logo-area img{
+    width: 100px;
+    margin: 0 auto;
+}
+.logo-btn{
+    width: 100px;
+    margin: 0 auto;
+}
+.logo-btn button{
+    padding: 9px 19px;
+    background-color: #ff191d;
+    border: 0;
+    border-radius: 7px;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+:root:hover{
+    --primary-color: #ff191d;
+    --background-color: transparent;
+}
+.logo-btn button:hover{
+    background-color: var(--background-color);
+    color: var(--primary-color);
+    border: 1px solid #ff191d;
+}
+.logo-btn button i:hover{
+    color: var(--primary-color);
+}
+.fa-brands{
+    position: relative;
+    right: 10px;
+    top: 3px;
+    font-size: 22px;
+}
+.fa-twitter{
+    color: #0077ff;
+}
+.fa-youtube{
+    color: #ff1900;
+}
+.link-area{
+    min-width: 350px;
+    margin: 0 auto;
+}
+.link-area ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    padding-inline-start: 0px;
+}
+.link-area ul li{
+    padding: 5px 0;
+    
+}
+.link-area ul a{
+    text-decoration: none;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+}
+@media screen and (min-width: 980px){
+    .container{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .header-area{
+        width: 100%;
+        border-bottom: 1px solid #282828;
+        background-color: transparent;        
+    }
+    nav{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+    }
+    nav .logo-area{
+        flex: 2;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    nav .logo-btn{
+       flex: 2;
+       flex-wrap: wrap;
+       display: flex;
+       justify-content: flex-start;
+       align-content: center;
+       margin-left: -30px;
+    }
+    nav .link-area{
+        flex: 6;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: flex-end;
+        align-content: center;
+        
+    }
+    .link-area ul{
+        justify-content: flex-end;
+        margin-right: 50px;
+        gap: 30px;
+    }
+    nav.link-area ul li{
+        display: block;
+    }
+}
+/* Header area end here */
+/* Hero area start here */
+h1{
+    color: #fff;
+    text-align: center  ;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+}
+.hero{
+    padding: 10px;
+}
+.hero-btn{
+    text-align: center;
+    padding: 20px 0;
+}
+.hero-btn button{
+    padding: 12px 25px;
+    border: 0;
+    border-radius: 10px;
+    background-color: #ff191d;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+}
+.hero-btn button:hover{
+    background-color: var(--background-color);
+    color: var(--primary-color);
+    border: 1px solid #ff191d;
+}
+.btn-2 button{
+    background-color: transparent;
+    border: 1px solid #575859;
+    margin: 20px 0;
+}
+@media screen and (min-width: 1200px){
+    .hero{
+        margin-top: 200px;
+        margin-left: 70px;
+        width: 50%;
+        margin: right auto;
+        text-align: left;
+    }
+    .hero-txt h1{
+        text-align: left;
+        font-size: 3rem;
+        margin-bottom: 0;
+    }
+    .hero-btn{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+        align-content: flex-start;
+        gap: 20px;
+    }
+    h1 span{
+        display: block;
+    }
+}
+/* Hero area end here */
+/* Products area start here */
+.sinle-product{
+    background-color: #1e1e1e;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    border-radius: 1rem;
+    margin: 10px 5px;
+}
+.sinle-product:hover{
+    cursor: pointer;
+    background-image: repeating-linear-gradient(45deg, hsla(27,91%,45%,0.1) 0px, hsla(27,91%,45%,0.1) 1px,transparent 1px, transparent 11px,hsla(27,91%,45%,0.1) 11px, hsla(27,91%,45%,0.1) 12px,transparent 12px, transparent 22px),repeating-linear-gradient(0deg, hsla(27,91%,45%,0.05) 0px, hsla(27,91%,45%,0.05) 1px,transparent 1px, transparent 11px,hsla(27,91%,45%,0.05) 11px, hsla(27,91%,45%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(135deg, hsla(27,91%,45%,0.05) 0px, hsla(27,91%,45%,0.05) 1px,transparent 1px, transparent 11px,hsla(27,91%,45%,0.05) 11px, hsla(27,91%,45%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(90deg, hsla(27,91%,45%,0.05) 0px, hsla(27,91%,45%,0.05) 1px,transparent 1px, transparent 11px,hsla(27,91%,45%,0.05) 11px, hsla(27,91%,45%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(45deg, hsla(27,91%,45%,0.05) 0px, hsla(27,91%,45%,0.05) 1px,transparent 1px, transparent 11px,hsla(27,91%,45%,0.05) 11px, hsla(27,91%,45%,0.05) 12px,transparent 12px, transparent 32px),linear-gradient(90deg, rgb(66, 24, 4),rgb(204, 64, 80));
+    transition: all 1s;
+    transform: rotateY(360deg);
+}
+.sinle-product p{
+    margin-bottom: 0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+}
+.sinle-product h4{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+}
+@media screen and (min-width: 980px){
+    .sinle-product{
+        display: flex;
+        flex-wrap: wrap;
+        align-content: stretch;
+        justify-content: space-between;
+    }
+    .product-txt{
+        margin-left: 80px;
+        text-align: left;
+    }
+    .product-txt h4{
+        margin-bottom: 100px;
+    }
+}
+@media screen and (min-width: 1200px){
+    .product-area{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .first-product{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        flex-direction: row;
+        align-content: stretch;
+    }
+    .second-product{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        flex-direction: row;
+        align-content: stretch;
+    }
+    .sinle-product{
+        width: 32%;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+    }
+    .product-txt {
+        margin-left: 12px;
+        text-align: left;
+        flex: 1;
+    }
+    .product-img{
+        flex: 2;
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+/* Products area end here */
+/* upcoming area start here */
+.upcoming-area{
+    background-color: #fff;
+    border-radius: 1rem;
+}
+.sub-container{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.upcoming-area{
+    padding: 70px 0;
+}
+.single-car{
+    margin-top: 70px;
+}
+.single-car p{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+.single-car:nth-of-type(1){
+    margin-top: 0;
+}
+.upcoming-link{
+    background-color: #f5f5f5;
+    padding: 20px 12px;
+    border-radius: 1rem;
+    margin-top: 70px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+.single-link button{
+    padding: 12px 27px;
+    border: 0;
+    background-color: #fff;
+    border-radius: 7px;
+    margin-right: 7px;
+    font-weight: bold;
+}
+.single-link button:nth-of-type(3){
+    margin-right: 0;
+}
+.single-link button a{
+    color: #000;
+    text-decoration: none;
+}
+@media screen and (max-width: 600px){
+    .upcoming-link{
+        display: none;
+    }
+}
+@media screen and (max-width: 620px){
+    .link-area{
+        display: none;
+    }
+}
+@media screen and (min-width: 980px){
+    .sub-container {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .car-section{
+        display: flex;
+        align-items: flex-end;
+        flex-wrap: wrap;
+        align-content: space-between;
+        justify-content: space-around;
+    }
+    .car-section:nth-of-type(2){
+        margin-bottom: 80px;
+        margin-top: 20px;
+    }
+    .single-car {
+        margin-top: 20px;
+    }
+    .single-car p{
+        text-align: center;
+    }
+    .single-car p:nth-of-type(1){
+        margin-bottom: 16PX;
+    }
+    .upcoming-link{
+        width: 90%;
+        margin: 0 auto;
+        box-sizing: border-box;
+    }
+    .car2 button:hover{
+        cursor: pointer;
+    }
+    .link-para{
+        margin-bottom: 16px;
+        margin-top: 0;
+    }
+}
+@media screen and (min-width: 1200px){
+    .upcoming-car{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: baseline;
+        padding: 10px 20px;
+    }
+    .car-section{
+        flex: 1;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: baseline;
+    }
+    .single-car{
+        width: 20%;
+        flex: 1;
+    }
+    .single-car p{
+        margin-left: 30px;
+    }
+    .single-car img{
+       width: 240px;
+    }
+    .upcoming-link{
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: space-evenly;
+        align-items: center
+    }
+    /* .single-link{
+        flex: 1;
+    } */
+    .car1{
+        width: 40%;
+        flex: 1;
+        margin-left: 35px;
+    }
+    .car2{
+        width: 60%;
+        flex: 3.6;
+    }
+    .single-link button {
+        padding: 16px 56px;
+        margin-right: 14px;
+    }
+}
+/* upcoming area end here */
+/* Services area Start here */
+.services-area{
+    background-color: #ff191d;
+    border-radius: 1rem;
+    color: #fff;
+    padding: 20px 12px;
+    text-align: center;
+}
+.txt{
+    margin-bottom: 30px;
+}
+.services-area{
+    padding: 50px 0;
+    margin: 10px 0;
+}
+.txt h2{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+.txt p{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+}
+.services-btn button{
+    padding: 7px 15px; 
+    border: none; 
+    border-radius: 8px;  
+    margin: 5px 0;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+}
+.bt2 button{
+    background-color: transparent;
+    border: 1px solid #ff808e;
+    margin-top: 20px;
+    color: #fff;
+}
+#W-btn{
+    color: #fff;
+}
+.bt1 button:hover{
+    border: 1px solid #fff;
+    background-color: #ff191d;
+    color: #fff;
+}
+.bt2 button:hover{
+    border: 1px solid #4b4848;
+}
+#btn-link2{
+    color: #fff;
+}
+.services-logo {
+    margin-top: 50px;
+}
+.single-logo{
+    margin-bottom: 20px;
+}
+.single-txt{
+    margin-bottom: 50px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+}
+.single-txt h4{
+    margin-bottom: 0;
+    font-size: 1.5rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+.single-txt hp{
+
+}
+@media screen and (min-width: 980px){
+    .services{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .txt{
+        text-align: center;
+    }
+    .services-logo{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .single-services{
+        width: 40%;
+        margin: 0 auto;
+        padding: 10px;
+    }
+    .single-logo{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .single-txt{
+        text-align: left;
+    }
+    .single-txt h4,p {
+        margin-bottom: 0;
+        font-size: 1rem;
+    }
+}
+@media screen and (min-width: 1200px){
+    .services{
+        display: flex;
+        flex-wrap: wrap;
+        width: 90%;
+        gap: 50px;
+    }
+    .txt{
+        flex: 1;
+        text-align: left;
+        margin-bottom: 140px;
+    }
+    .txt h2{
+        font-size: 3rem;
+    }
+    .txt p{
+        font-size: 1.5rem;
+    }
+    .services-txt{
+        flex: 1;
+    }
+    .services-logo{
+        flex: 1;
+    }
+    .services-btn{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-end;
+        align-items: baseline;
+        gap: 10px;
+
+    }
+    .services-btn button{
+        padding: 12px 25px;;
+    }
+    .single-logo img{
+        width: 50px;
+    }
+    .single-services{
+        padding: 0;
+        width: 45%;
+    }
+}
+/* Services area end here */
